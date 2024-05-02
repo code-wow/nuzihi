@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9cbc541f29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="login.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <?php if (!empty($error_message)): ?>
+    <p><?php echo $error_message; ?></p>
+<?php endif; ?>
+    <main class="logincontainer">
+        <h1 id="nuzihi">NUZIHI</h1><br><br>
+        <i class="fa-solid fa-user"></i> <br><br>
+        <form action="login_handler.php" method="post">
+            <label id="signin" for="Sign in">Sign in</label><br><br><br>
+            <input type="text" name="username" id="username" placeholder="Username/Email"><br><br>
+            
+            <input type="password" name="password" id="password" placeholder="password"><br><br>
+            <label for="RememberMe" id="rememberMe" >Remember Me</label>
+            <input type="checkbox" name=RememberMe   placeholder="Remember"/><br><br>
+            <button 
+            
+            id="loginbtn" type="submit" href="index.html"
+            value="Login" >SIGN IN</button><br><br>
+            <label  id="createaccount"  for="create account">Dont have an Account?</label>
+            <a href="register.php">Create Account</a><br><br>
+            <label  id="useanon"  for="use anonymously">Use Nuzihi Anonymously?</label>
+            <a href="register.php">Use anonymously</a>
+        </form>
+    </main>
+    <script src="style.js"></script>
+</body>
+</html>

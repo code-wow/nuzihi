@@ -1,0 +1,73 @@
+.logincontainer{
+    display: block;
+    background-color: #092901;
+    box-sizing: border-box;
+    padding: 60px;
+    margin: 0px;
+    text-align: center;
+
+}
+#signin{
+    color: azure;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#username{
+    border-radius: 20px;
+    border: none;
+    size: 100%;
+    width: 250px;
+    height: 50px;
+
+}
+#password{
+    border-radius: 20px;
+    border: none;
+    size: 100%;
+    height: 50px;
+    width: 250px;
+
+
+}
+#loginbtn{
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: azure;
+}
+#loginbtn:hover{
+    background-color: hsl(133, 100%, 85%);
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    animation-direction: alternate;
+
+}
+    
+.fa-solid.fa-user{
+    size: 100%;
+    color: hsl(132, 100%, 84%);
+    display: block;
+    padding: 20px;
+    font-size: xx-large;
+}
+#nuzihi{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rememberMe{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0px;
+}
+#createaccount{
+    color: azure;
+}
+.logincontainer a {
+    color: hsl(134, 100%, 82%);
+}
+#useanon{
+    color: azure;
+}
+    
